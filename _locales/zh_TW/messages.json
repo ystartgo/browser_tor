@@ -1,0 +1,68 @@
+{
+    "appName": {
+        "message": "Secure Proxy"
+    },
+    "appDesc": {
+        "message": "防止網路監控與 SSL 解密，預設透過 Tor 瀏覽器"
+    },
+    "connectionMode": {
+        "message": "連線模式"
+    },
+    "direct": {
+        "message": "直連"
+    },
+    "torProxy": {
+        "message": "Tor 代理"
+    },
+    "mode1": {
+        "message": "模式 1"
+    },
+    "proxyConfig": {
+        "message": "代理設定"
+    },
+    "host": {
+        "message": "主機"
+    },
+    "port": {
+        "message": "連接埠"
+    },
+    "type": {
+        "message": "類型"
+    },
+    "applySettings": {
+        "message": "套用設定"
+    },
+    "torRequired": {
+        "message": "需要 Tor Browser"
+    },
+    "statusChecking": {
+        "message": "狀態：檢查中..."
+    },
+    "statusRunning": {
+        "message": "狀態：執行中"
+    },
+    "statusStopped": {
+        "message": "狀態：未執行"
+    },
+    "defaultPath": {
+        "message": "預設路徑："
+    },
+    "downloadTor": {
+        "message": "下載 Tor Browser"
+    },
+    "copyPath": {
+        "message": "複製路徑"
+    },
+    "copied": {
+        "message": "已複製！"
+    },
+    "torRunningTitle": {
+        "message": "Tor Browser 正在執行"
+    },
+    "torStoppedTitle": {
+        "message": "Tor Browser 未執行"
+    },
+    "copyPathTitle": {
+        "message": "複製路徑到剪貼簿"
+    }
+}

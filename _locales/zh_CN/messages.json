@@ -1,0 +1,68 @@
+{
+    "appName": {
+        "message": "Secure Proxy"
+    },
+    "appDesc": {
+        "message": "防止网络监控与 SSL 解密，默认通过 Tor 浏览器"
+    },
+    "connectionMode": {
+        "message": "连接模式"
+    },
+    "direct": {
+        "message": "直连"
+    },
+    "torProxy": {
+        "message": "Tor 代理"
+    },
+    "mode1": {
+        "message": "模式 1"
+    },
+    "proxyConfig": {
+        "message": "代理设置"
+    },
+    "host": {
+        "message": "主机"
+    },
+    "port": {
+        "message": "端口"
+    },
+    "type": {
+        "message": "类型"
+    },
+    "applySettings": {
+        "message": "应用设置"
+    },
+    "torRequired": {
+        "message": "需要 Tor Browser"
+    },
+    "statusChecking": {
+        "message": "状态：检查中..."
+    },
+    "statusRunning": {
+        "message": "状态：运行中"
+    },
+    "statusStopped": {
+        "message": "状态：未运行"
+    },
+    "defaultPath": {
+        "message": "默认路径："
+    },
+    "downloadTor": {
+        "message": "下载 Tor Browser"
+    },
+    "copyPath": {
+        "message": "复制路径"
+    },
+    "copied": {
+        "message": "已复制！"
+    },
+    "torRunningTitle": {
+        "message": "Tor Browser 正在运行"
+    },
+    "torStoppedTitle": {
+        "message": "Tor Browser 未运行"
+    },
+    "copyPathTitle": {
+        "message": "复制路径到剪贴板"
+    }
+}

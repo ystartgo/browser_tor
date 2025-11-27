@@ -1,0 +1,68 @@
+{
+    "appName": {
+        "message": "Secure Proxy"
+    },
+    "appDesc": {
+        "message": "Prevent network monitoring and SSL decryption, defaulting via Tor Browser"
+    },
+    "connectionMode": {
+        "message": "Connection Mode"
+    },
+    "direct": {
+        "message": "Direct"
+    },
+    "torProxy": {
+        "message": "Tor Proxy"
+    },
+    "mode1": {
+        "message": "Mode 1"
+    },
+    "proxyConfig": {
+        "message": "Proxy Configuration"
+    },
+    "host": {
+        "message": "Host"
+    },
+    "port": {
+        "message": "Port"
+    },
+    "type": {
+        "message": "Type"
+    },
+    "applySettings": {
+        "message": "Apply Settings"
+    },
+    "torRequired": {
+        "message": "Tor Browser Required"
+    },
+    "statusChecking": {
+        "message": "Status: Checking..."
+    },
+    "statusRunning": {
+        "message": "Status: Running"
+    },
+    "statusStopped": {
+        "message": "Status: Stopped"
+    },
+    "defaultPath": {
+        "message": "Default Path:"
+    },
+    "downloadTor": {
+        "message": "Download Tor Browser"
+    },
+    "copyPath": {
+        "message": "Copy Path"
+    },
+    "copied": {
+        "message": "Copied!"
+    },
+    "torRunningTitle": {
+        "message": "Tor Browser is running"
+    },
+    "torStoppedTitle": {
+        "message": "Tor Browser is NOT running"
+    },
+    "copyPathTitle": {
+        "message": "Copy path to clipboard"
+    }
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Secure Proxy Manager</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <img src="icons/icon48.png" alt="Shield Icon">
+        <h1 data-i18n="appName">Secure Proxy</h1>
+      </div>
+      <div id="status-indicator" class="status-badge status-off" data-i18n="direct">Direct</div>
+    </header>
+
+    <main>
+      <div class="card">
+        <h2 data-i18n="connectionMode">Connection Mode</h2>
+        <div class="mode-selector">
+          <button id="btn-direct" class="mode-btn active" data-mode="direct">
+            <span class="icon">🌐</span> <span data-i18n="direct">Direct</span>
+          </button>
+          <button id="btn-proxy" class="mode-btn" data-mode="fixed_servers">
+            <span class="icon">🧅</span>
+            <div class="btn-text">
+              <span class="btn-title" data-i18n="torProxy">Tor Proxy</span>
+              <span class="btn-subtitle" data-i18n="mode1">Mode 1</span>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <div id="proxy-settings" class="card hidden">
+        <h2 data-i18n="proxyConfig">Proxy Configuration</h2>
+        <div class="input-group">
+          <label for="proxy-host" data-i18n="host">Host</label>
+          <input type="text" id="proxy-host" placeholder="127.0.0.1" value="127.0.0.1">
+        </div>
+        <div class="input-group">
+          <label for="proxy-port" data-i18n="port">Port</label>
+          <input type="number" id="proxy-port" placeholder="9150" value="9150">
+        </div>
+        <div class="input-group">
+          <label for="proxy-scheme" data-i18n="type">Type</label>
+          <select id="proxy-scheme">
+            <option value="socks5">SOCKS5</option>
+            <option value="http">HTTP</option>
+            <option value="https">HTTPS</option>
+          </select>
+        </div>
+        <button id="btn-save" class="primary-btn" data-i18n="applySettings">Apply Settings</button>
+      </div>
+
+      <div class="info-box">
+        <div class="tor-status-header">
+          <strong data-i18n="torRequired">Tor Browser Required</strong>
+          <div id="tor-status-light" class="status-light red" title="Checking status..."></div>
+        </div>
+        <p id="tor-status-text" data-i18n="statusChecking">Status: Checking...</p>
+        <p class="small-text"><span data-i18n="defaultPath">Default Path:</span>
+          <br><code>C:\App\Tor_Browser\Browser\firefox.exe</code></p>
+        <div class="action-buttons">
+          <a href="https://www.torproject.org/download/" target="_blank" class="link-btn"
+            data-i18n="downloadTor">Download Tor Browser</a>
+          <button id="btn-copy-path" class="secondary-btn" title="Copy path to clipboard" data-i18n="copyPath">Copy
+            Path</button>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="popup.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+{
+    "appName": {
+        "message": "Secure Proxy"
+    },
+    "appDesc": {
+        "message": "ネットワーク監視とSSL復号化を防止、デフォルトでTorブラウザ経由"
+    },
+    "connectionMode": {
+        "message": "接続モード"
+    },
+    "direct": {
+        "message": "直接接続"
+    },
+    "torProxy": {
+        "message": "Tor プロキシ"
+    },
+    "mode1": {
+        "message": "モード 1"
+    },
+    "proxyConfig": {
+        "message": "プロキシ設定"
+    },
+    "host": {
+        "message": "ホスト"
+    },
+    "port": {
+        "message": "ポート"
+    },
+    "type": {
+        "message": "タイプ"
+    },
+    "applySettings": {
+        "message": "設定を適用"
+    },
+    "torRequired": {
+        "message": "Tor Browser が必要"
+    },
+    "statusChecking": {
+        "message": "ステータス：確認中..."
+    },
+    "statusRunning": {
+        "message": "ステータス：実行中"
+    },
+    "statusStopped": {
+        "message": "ステータス：停止中"
+    },
+    "defaultPath": {
+        "message": "デフォルトパス："
+    },
+    "downloadTor": {
+        "message": "Tor Browser をダウンロード"
+    },
+    "copyPath": {
+        "message": "パスをコピー"
+    },
+    "copied": {
+        "message": "コピーしました！"
+    },
+    "torRunningTitle": {
+        "message": "Tor Browser は実行中です"
+    },
+    "torStoppedTitle": {
+        "message": "Tor Browser は実行されていません"
+    },
+    "copyPathTitle": {
+        "message": "パスをクリップボードにコピー"
+    }
+}
