@@ -159,5 +159,31 @@ document.addEventListener('DOMContentLoaded', () => {
         if (config.host) inputHost.value = config.host;
         if (config.port) inputPort.value = config.port;
         if (config.scheme) inputScheme.value = config.scheme;
+
+        // Refresh IP when UI updates (likely mode change)
+        fetchCurrentIP();
     }
+
+    function fetchCurrentIP() {
+        const ipElement = document.getElementById('current-ip');
+        if (!ipElement) return;
+
+        ipElement.textContent = chrome.i18n.getMessage('ipChecking');
+        ipElement.className = 'loading';
+
+        fetch('https://api.ipify.org?format=json')
+            .then(response => response.json())
+            .then(data => {
+                ipElement.textContent = data.ip;
+                ipElement.className = '';
+            })
+            .catch(error => {
+                console.error('Error fetching IP:', error);
+                ipElement.textContent = chrome.i18n.getMessage('ipError');
+                ipElement.className = 'error';
+            });
+    }
+
+    // Initial IP check
+    fetchCurrentIP();
 });

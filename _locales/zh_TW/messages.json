@@ -64,5 +64,14 @@
     },
     "copyPathTitle": {
         "message": "複製路徑到剪貼簿"
+    },
+    "currentIP": {
+        "message": "當前 IP"
+    },
+    "ipChecking": {
+        "message": "查詢中..."
+    },
+    "ipError": {
+        "message": "無法取得"
     }
 }

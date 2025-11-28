@@ -47,6 +47,18 @@ header {
   margin: 0;
 }
 
+.header-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.ip-display {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
 .status-badge {
   font-size: 12px;
   padding: 4px 8px;

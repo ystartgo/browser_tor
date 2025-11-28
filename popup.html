@@ -15,7 +15,13 @@
         <img src="icons/icon48.png" alt="Shield Icon">
         <h1 data-i18n="appName">Secure Proxy</h1>
       </div>
-      <div id="status-indicator" class="status-badge status-off" data-i18n="direct">Direct</div>
+      <div class="header-right">
+        <div class="ip-display">
+          <span data-i18n="currentIP">Current IP</span>:
+          <span id="current-ip" class="loading" data-i18n="ipChecking">Checking...</span>
+        </div>
+        <div id="status-indicator" class="status-badge status-off" data-i18n="direct">Direct</div>
+      </div>
     </header>
 
     <main>
@@ -63,7 +69,8 @@
         </div>
         <p id="tor-status-text" data-i18n="statusChecking">Status: Checking...</p>
         <p class="small-text"><span data-i18n="defaultPath">Default Path:</span>
-          <br><code>C:\App\Tor_Browser\Browser\firefox.exe</code></p>
+          <br><code>C:\App\Tor_Browser\Browser\firefox.exe</code>
+        </p>
         <div class="action-buttons">
           <a href="https://www.torproject.org/download/" target="_blank" class="link-btn"
             data-i18n="downloadTor">Download Tor Browser</a>

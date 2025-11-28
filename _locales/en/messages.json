@@ -64,5 +64,14 @@
     },
     "copyPathTitle": {
         "message": "Copy path to clipboard"
+    },
+    "currentIP": {
+        "message": "Current IP"
+    },
+    "ipChecking": {
+        "message": "Checking..."
+    },
+    "ipError": {
+        "message": "Unavailable"
     }
 }
